@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    
     <Header/>
     <Menu />
     <Content/>
@@ -22,9 +21,9 @@ export default {
     Content,
     Footer
   },
-  mounted() {
-    this.$store.dispatch({ type: "restoreLogin" });
-  },
+  // mounted() {
+  //   this.$store.dispatch({ type: "restoreLogin" });
+  // },
 };
 </script>
 <style></style>
